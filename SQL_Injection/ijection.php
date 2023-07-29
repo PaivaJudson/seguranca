@@ -2,11 +2,6 @@
 
 $id = (isset($_GET["id"]))? $_GET["id"]:2;
 
-if(!is_numeric($id))
-{
-    exit("Não vai por este caminho é crime...");
-}
-
 
 $conn = mysqli_connect("localhost", "root", "", "cadastro");
 
